@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Simon",
+        "dateOfBirth": "25-12-2000"
+    },
+    {
+        "id": 2,
+        "name": "John",
+        "dateOfBirth": "25-8-2001"
+    },
+    {
+        "id": 3,
+        "name": "Reginnah",
+        "dateOfBirth": "21-8-2002"
+    },
+    {
+        "id": 4,
+        "name": "Tom",
+        "dateOfBirth": "5-8-2000"
+    }
+]
