@@ -35,3 +35,8 @@
 20220429	12:22:13	2846d0d6-9af2-4eec-b434-1516d5a41778	DELETE	undefined	/api/users/
 20220429	12:22:56	213e1a8d-11c6-493a-b424-c87a69340efb	GET	undefined	/api/users/1
 20220429	12:23:03	6d3d8b82-aa33-411a-9347-e94a602d4682	GET	undefined	/api/users/3
+20220429	16:33:48	f15957ac-c401-4cbc-a4e1-606e1456bb8f	POST	undefined	/api/users/
+20220429	16:35:28	6c4334cb-a012-4869-a065-57ef7d0c1376	POST	undefined	/api/users/
+20220429	16:58:22	6bf9a281-9ed9-4ea9-a205-7db7bfaf9cea	POST	undefined	/api/register/
+20220429	17:00:38	235a2cfb-11ab-4762-b611-b634faba76d7	POST	undefined	/api/register/
+20220429	17:16:36	09125e24-cd32-47ce-9158-e44bba2945e3	POST	undefined	/api/register/

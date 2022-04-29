@@ -18,7 +18,9 @@ app.get("/", (req, res) => {
     res.json({ "message":"Hello world!" });
 });
 
-app.use("/api/users", require('./routes/api/users'))
+app.use("/api/auth", require('./routes/api/auth'));
+app.use("/api/register", require('./routes/api/register'));
+app.use("/api/users", require('./routes/api/users'));
 
 
 app.all('*', (req, res) =>{
