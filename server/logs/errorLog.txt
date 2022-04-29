@@ -1,1 +1,2 @@
 20220428	20:49:10	fed7d4f7-4e01-494c-899c-c185d87117e0	Error: Not authorized!
+20220429	12:16:55	670dd2fc-fdb4-4c77-8e7b-e5c421fddd42	SyntaxError: Unexpected string in JSON at position 16

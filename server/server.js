@@ -3,21 +3,9 @@ const cors = require('cors');
 const path = require('path');
 const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
+const corsOptions = require('./config/corsOptions');
 
 const app = express();
-
-const whitelist = ['http://localhost/3000', 'http://localhost/5000'];
-const corsOptions = {
-    origin: (origin, callback) =>{
-        if(whitelist.indexOf(origin) !== -1 || !origin){
-            callback(null, true)
-        }else{
-            callback(new Error('Not authorized!'))
-        }
-    },
-    optionsSuccessStatus: 200
-}
-
 
 //middleware
 app.use(logger);
@@ -27,7 +15,7 @@ app.use(express.json());
 
 
 app.get("/", (req, res) => {
-    res.json({ msg:"Hello world!" });
+    res.json({ "message":"Hello world!" });
 });
 
 app.use("/api/users", require('./routes/api/users'))
@@ -36,6 +24,7 @@ app.use("/api/users", require('./routes/api/users'))
 app.all('*', (req, res) =>{
     res.status(404).json({ error:'Page Not Found'});
 });
+
 app.use(errorHandler);
 
 
