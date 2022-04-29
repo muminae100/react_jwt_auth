@@ -40,3 +40,11 @@
 20220429	16:58:22	6bf9a281-9ed9-4ea9-a205-7db7bfaf9cea	POST	undefined	/api/register/
 20220429	17:00:38	235a2cfb-11ab-4762-b611-b634faba76d7	POST	undefined	/api/register/
 20220429	17:16:36	09125e24-cd32-47ce-9158-e44bba2945e3	POST	undefined	/api/register/
+20220429	17:40:10	5b2c929e-3cd3-4e34-8c3e-7335db1ef372	POST	undefined	/api/auth/
+20220429	17:41:05	a8221351-e384-4d4a-8286-f4767c3b2690	POST	undefined	/api/auth/
+20220429	17:41:09	b3abd334-200d-4e84-95d2-7ba5ca05ce10	POST	undefined	/api/auth/
+20220429	17:42:47	a3567aaf-b434-46cc-8485-c8c845ae562b	POST	undefined	/api/auth/
+20220429	17:55:24	503e1f20-27e5-429e-9101-678e58da70b3	POST	undefined	/api/auth/
+20220429	17:57:29	62ac7137-5aec-4695-9277-e8acf0afb671	POST	undefined	/api/auth/
+20220429	17:57:35	8a778fa7-d9b2-485f-8b71-a89558b9b88e	POST	undefined	/api/auth/
+20220429	17:57:52	e5bd55d0-3622-4e97-85be-d9f167c73f8b	POST	undefined	/api/auth/
