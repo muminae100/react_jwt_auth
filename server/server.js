@@ -1,9 +1,10 @@
 const express = require("express");
 const cors = require('cors');
+const corsOptions = require('./config/corsOptions');
 const path = require('path');
 const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
-const corsOptions = require('./config/corsOptions');
+const verifyJWT = require('./middleware/verifyJWT');
 
 const app = express();
 
@@ -18,8 +19,10 @@ app.get("/", (req, res) => {
     res.json({ "message":"Hello world!" });
 });
 
-app.use("/api/auth", require('./routes/api/auth'));
-app.use("/api/register", require('./routes/api/register'));
+app.use("/auth", require('./routes/auth'));
+app.use("/register", require('./routes/register'));
+
+app.use(verifyJWT);
 app.use("/api/users", require('./routes/api/users'));
 
 

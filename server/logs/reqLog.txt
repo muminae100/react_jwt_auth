@@ -48,3 +48,15 @@
 20220429	17:57:29	62ac7137-5aec-4695-9277-e8acf0afb671	POST	undefined	/api/auth/
 20220429	17:57:35	8a778fa7-d9b2-485f-8b71-a89558b9b88e	POST	undefined	/api/auth/
 20220429	17:57:52	e5bd55d0-3622-4e97-85be-d9f167c73f8b	POST	undefined	/api/auth/
+20220429	20:07:23	eac51401-991e-42cd-8166-e49ad0e45459	POST	undefined	/register
+20220429	20:07:46	c4901d92-f686-4ab1-9361-b45367028d37	POST	undefined	/auth
+20220429	20:17:10	d42b39ea-9a98-4f83-9a8a-50aac0fe1d45	GET	undefined	/api/users/
+20220429	20:17:15	5645587b-ca7e-45bd-ac93-d78a8e379876	POST	undefined	/auth
+20220429	20:17:26	cb3f19ce-f9b1-422c-91f5-ad7b126abf64	GET	undefined	/api/users/
+20220429	20:18:22	ea1966b0-5fe3-4fe2-ba26-57f7933a99cc	GET	undefined	/api/users/
+20220429	20:18:33	995df263-76f6-46a5-9ddc-02a78cd6db50	POST	undefined	/auth
+20220429	20:18:52	6c9201bd-6a12-49c4-b87e-55a03ef92588	GET	undefined	/api/users/
+20220429	20:34:01	6523df03-eedb-44a6-99c8-7b8479f67817	POST	undefined	/auth
+20220429	20:34:13	700acbcd-e886-415b-b94d-6263a623c3c1	GET	undefined	/api/users/
+20220429	20:34:22	fd1bce09-49cf-49e1-83eb-496a6ca30592	GET	undefined	/api/users/
+20220429	20:34:27	fcdded1a-4b9e-4af8-89c5-15b5c9b2e675	GET	undefined	/api/users/
