@@ -19,10 +19,13 @@ const handleRegister = async (req, res) =>{
     const hashed_psw = await bcrypt.hash(psw, 10)
 
     const newUser = {
-        id: userDb.users[userDb.users.length - 1].id + 1 || 1,
-        name: name,
-        dateOfBirth: dateOfBirth,
-        psw: hashed_psw
+        "id": userDb.users[userDb.users.length - 1].id + 1 || 1,
+        "name": name,
+        "dateOfBirth": dateOfBirth,
+        "roles": {
+            "User": 2001
+        },
+        "psw": hashed_psw
     }
 
     userDb.setUsers([...userDb.users, newUser]);

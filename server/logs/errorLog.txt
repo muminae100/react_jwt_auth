@@ -1,2 +1,4 @@
 20220428	20:49:10	fed7d4f7-4e01-494c-899c-c185d87117e0	Error: Not authorized!
 20220429	12:16:55	670dd2fc-fdb4-4c77-8e7b-e5c421fddd42	SyntaxError: Unexpected string in JSON at position 16
+20220430	11:47:18	8dabe3e6-c7d0-41d9-a00a-42ad4accf287	ReferenceError: next is not defined
+20220430	11:53:09	fce8e1c9-b6b5-4aa5-8b85-c0c8a287f360	TypeError: authHeader?.startswith is not a function

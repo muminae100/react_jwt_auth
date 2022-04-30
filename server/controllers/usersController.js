@@ -11,9 +11,9 @@ const getAllUsers = (req, res) => {
 
 const createUser = (req, res) =>{
     const newUser = {
-        id: data.users[data.users.length - 1].id + 1 || 1,
-        name: req.body.name,
-        dateOfBirth: req.body.dateOfBirth
+        "id": data.users[data.users.length - 1].id + 1 || 1,
+        "name": req.body.name,
+        "dateOfBirth": req.body.dateOfBirth
     }
     if(!req.body.name || !req.body.dateOfBirth){
         res.status(400).json({"message": "Enter the required details"});
