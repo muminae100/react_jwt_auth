@@ -1,24 +1,17 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
-const fsPromises = require('fs').promises;
-const path = require('path');
-const userDb = {
-    users: require('../models/users.json'),
-    setUsers: function (data) {
-        this.users = data;
-    }
-}
+const User = require('../models/User');
 
 const handleAuth = async (req, res) =>{
     const { name, psw } = req.body;
     if(!name || !psw ) return res.status(400).json({"message": "Fill all the required details!"});
 
-    const user = userDb.users.find(user => user.name === name);
+    const user = await User.findOne({name: name}).exec();
 
     if(!user) return res.status(401).json({"message": "Invalid crendentials!"});
 
-    const match = await bcrypt.compare(psw, user.psw);
+    const match = await bcrypt.compare(psw, user.password);
 
     if(match){
         const roles = Object.values(user.roles);
@@ -39,14 +32,8 @@ const handleAuth = async (req, res) =>{
         );
         
         //save refresh token
-        const otherUsers = userDb.users.filter(u=> u.name !== user.name);
-        const currentUser = {...user, refreshToken};
-        userDb.setUsers([...otherUsers, currentUser]);
-
-        await fsPromises.writeFile(
-            path.join(__dirname, '..', 'models', 'users.json'), 
-            JSON.stringify(userDb.users)
-        );
+        user.refreshToken = refreshToken;
+        const result = await user.save();
 
         res.cookie('jwt', refreshToken, {
             httpOnly: true,

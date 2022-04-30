@@ -7,6 +7,11 @@ const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
+const mongoose = require('mongoose');
+const connectDB = require('./config/dbConn');
+
+//connect to db
+connectDB();
 
 const app = express();
 
@@ -29,7 +34,7 @@ app.use("/refresh", require('./routes/refreshToken'));
 app.use("/logout", require('./routes/logout'));
 
 app.use(verifyJWT);
-app.use("/api/users", require('./routes/api/users'));
+app.use("/api/employees", require('./routes/api/employees'));
 
 
 app.all('*', (req, res) =>{
@@ -40,4 +45,10 @@ app.use(errorHandler);
 
 
 PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+
+
+//listen to requests after connection to mongoDB
+mongoose.connection.once('open', () =>{
+    console.log('Connected to MongoDB');
+    app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+})
