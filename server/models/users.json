@@ -1,1 +1,30 @@
-[{"id":1,"name":"Simon","dateOfBirth":"25-12-2000","psw":"mypsw"},{"id":2,"name":"John","dateOfBirth":"25-8-2001","psw":"myname"},{"id":3,"name":"Reginnah","dateOfBirth":"21-8-2002","psw":"password"},{"id":4,"name":"Tom","dateOfBirth":"5-8-2000","psw":"tomthechamp"},{"id":5,"name":"Simon mumina","dateOfBirth":"20-7-1997","psw":"$2b$10$Wg7xXl5.okU6L8KO0OmRB.iF9GWfQrhvmZ5flACTR6IiU0UoUIW7q"},{"id":6,"name":"John Doe","dateOfBirth":"20-7-1997","psw":"$2b$10$3KAISwYfHhXUqyNsnpF96O7UyHOEqo9FW9yS3PC4LepC6wR1oFZty"},{"id":7,"name":"Hitman","dateOfBirth":"3-01-2001","psw":"$2b$10$b43vn5FZb2QjEKJNH.6TZ.6m1XuWAh3o87iXEoR72Js16fK9Yg/vO","refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSGl0bWFuIiwiaWF0IjoxNjUxMjUzNjQxLCJleHAiOjE2NTEyNTM4MjF9.59UzpX7bUPDrZyeIut1rE7AOz1jcmTIJLCKJEQTonrc"}]
+[
+  { "id": 1, "name": "Simon", "dateOfBirth": "25-12-2000", "psw": "mypsw" },
+  { "id": 2, "name": "John", "dateOfBirth": "25-8-2001", "psw": "myname" },
+  {
+    "id": 3,
+    "name": "Reginnah",
+    "dateOfBirth": "21-8-2002",
+    "psw": "password"
+  },
+  { "id": 4, "name": "Tom", "dateOfBirth": "5-8-2000", "psw": "tomthechamp" },
+  {
+    "id": 5,
+    "name": "Simon mumina",
+    "dateOfBirth": "20-7-1997",
+    "psw": "$2b$10$Wg7xXl5.okU6L8KO0OmRB.iF9GWfQrhvmZ5flACTR6IiU0UoUIW7q"
+  },
+  {
+    "id": 6,
+    "name": "John Doe",
+    "dateOfBirth": "20-7-1997",
+    "psw": "$2b$10$3KAISwYfHhXUqyNsnpF96O7UyHOEqo9FW9yS3PC4LepC6wR1oFZty"
+  },
+  {
+    "id": 7,
+    "name": "Hitman",
+    "dateOfBirth": "3-01-2001",
+    "psw": "$2b$10$b43vn5FZb2QjEKJNH.6TZ.6m1XuWAh3o87iXEoR72Js16fK9Yg/vO",
+    "refreshToken": ""
+  }
+]
