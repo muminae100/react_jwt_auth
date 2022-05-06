@@ -1,12 +1,11 @@
 const express = require("express");
-const crendentials = require("./middleware/credentials");
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
-const path = require('path');
 const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const verifyJWT = require('./middleware/verifyJWT');
 const cookieParser = require('cookie-parser');
+const credentials = require("./middleware/credentials");
 const mongoose = require('mongoose');
 const connectDB = require('./config/dbConn');
 
@@ -17,7 +16,7 @@ const app = express();
 
 //middleware
 app.use(logger);
-app.use(crendentials);
+app.use(credentials);
 app.use(cors(corsOptions));
 app.use(express.urlencoded({extended: false}));
 app.use(express.json());

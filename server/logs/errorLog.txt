@@ -2,3 +2,31 @@
 20220429	12:16:55	670dd2fc-fdb4-4c77-8e7b-e5c421fddd42	SyntaxError: Unexpected string in JSON at position 16
 20220430	11:47:18	8dabe3e6-c7d0-41d9-a00a-42ad4accf287	ReferenceError: next is not defined
 20220430	11:53:09	fce8e1c9-b6b5-4aa5-8b85-c0c8a287f360	TypeError: authHeader?.startswith is not a function
+20220504	15:57:41	66fb9aa6-4603-40ef-b0f9-e88dbd0bd496	Error: Not authorized!
+20220504	15:58:43	6e377140-f5f5-41c5-8e84-d167e6c52fc1	Error: Not authorized!
+20220504	16:04:07	7da51152-1747-4bfc-94d0-3c580ea89db7	Error: Not authorized!
+20220504	17:34:39	e968c29e-6ec0-4a70-b90a-b487122abb54	Error: Not authorized!
+20220506	13:23:52	91edceab-f66a-45a4-b8ff-4243a77b9f43	Error: Not authorized!
+20220506	13:31:44	3d21d128-2e03-41ae-8716-12dfffdc2c52	Error: Not authorized!
+20220506	13:34:22	2db0c856-3a75-46b3-b6ff-21bdf561523c	Error: Not authorized!
+20220506	14:27:33	ed331984-d6d7-45a0-99b7-9fb7bd38e0ce	Error: Not authorized!
+20220506	14:30:08	af91e2ed-d551-4755-967b-1918d56861a1	Error: Not authorized!
+20220506	14:32:08	0afde6a3-6d0a-4ad4-9aa9-ecfce00fda65	Error: Not authorized!
+20220506	14:38:50	ac54d6d5-0526-4a56-83aa-1e4e52703a87	Error: Not authorized!
+20220506	14:40:18	d598c42e-e26f-42e7-ade0-3e5273a38776	Error: Not authorized!
+20220506	14:42:16	2ffc3217-c334-495e-8482-fa01ddb97804	Error: Not authorized!
+20220506	14:47:32	22bee8d0-cb7b-405a-b9a2-d2479c38b447	Error: Not authorized!
+20220506	15:01:14	ad43900a-02d3-4a65-8f47-47df959d1206	Error: Not authorized!
+20220506	15:12:11	c18ce180-f3b8-46e7-80cd-de3a6c122151	Error: Not authorized!
+20220506	15:16:54	25683a18-ef27-4254-bf59-8d69aa5efa2d	Error: Not authorized!
+20220506	15:18:12	6389a3ab-c553-4cad-8db5-267c7bbb9bc1	Error: Not authorized!
+20220506	15:18:18	6812c9ec-1e84-4798-82ab-3147ecee25ad	Error: Not authorized!
+20220506	15:19:54	74f3e82e-cff7-4f09-8ad7-c8424452fb92	Error: Not authorized!
+20220506	15:21:06	23b7b5e2-34c8-492b-97be-fa9dbc35066c	Error: Not authorized!
+20220506	15:22:12	2a957497-c522-47d2-a30c-3435642b6d3d	Error: Not authorized!
+20220506	15:22:12	d1c1c593-33a0-49d5-b2e5-82f89dbae615	Error: Not authorized!
+20220506	15:22:53	845096c5-bc45-4cc6-a9b7-752c4dcf796b	Error: Not authorized!
+20220506	15:23:46	057a07b2-ddda-42ab-8007-0b0973dbc7a5	Error: Not authorized!
+20220506	15:25:19	ca342b04-899f-4d66-a78f-38d0d39ac9ee	Error: Not authorized!
+20220506	15:39:44	faf0f0c3-83fe-4685-bb49-fd6fde0fe0eb	Error: Not authorized!
+20220506	15:40:27	7205d188-75e0-4078-903f-05a327c9a56f	Error: Not authorized!
