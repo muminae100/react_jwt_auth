@@ -14,7 +14,7 @@ const handleAuth = async (req, res) =>{
     const match = await bcrypt.compare(psw, user.password);
 
     if(match){
-        const roles = Object.values(user.roles);
+        const roles = Object.values(user.roles).filter(Boolean);
         //create JWTs
         const accessToken = jwt.sign(
             {"UserInfo":{
@@ -41,7 +41,7 @@ const handleAuth = async (req, res) =>{
             sameSite: 'None',
             secure: true
         });
-        res.json({accessToken});
+        res.json({accessToken, roles});
 
     }else{
         res.sendStatus(401);

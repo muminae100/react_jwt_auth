@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { faCheck, faTimes, faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from 'react-router-dom';
 import './Register.css';
 import axios from '../../axios/axios';
 
@@ -67,6 +68,8 @@ const Register = () => {
             withCredentials: true
           }
         );
+
+        console.log(response.data);
         setSuccess(true);
 
       } catch (error) {
@@ -91,7 +94,7 @@ const Register = () => {
           <section>
             <h1>Success!</h1>
             <p>
-              <a href="#">Sign In</a>
+            <Link to="/login">Sign In</Link>
             </p>
           </section>
         ):(
@@ -185,7 +188,7 @@ const Register = () => {
             <p>
               Already registered? <br />
               <span className="line">
-                <a href="#">Sign In</a>
+                <Link to="/login">Sign In</Link>
               </span>
             </p>
         </section>
