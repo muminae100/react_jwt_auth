@@ -14,7 +14,7 @@ const Users = () => {
 
         const getUsers = async () => {
             try {
-                const response = await axiosPrivate.get('/users', {
+                const response = await axiosPrivate.get('/api/employees', {
                     signal: controller.signal
                 });
                 console.log(response.data);
@@ -35,13 +35,13 @@ const Users = () => {
 
     return (
         <article>
-            <h2>Users List</h2>
+            <h2>Employees List</h2>
             {users?.length
                 ? (
                     <ul>
                         {users.map((user, i) => <li key={i}>{user?.username}</li>)}
                     </ul>
-                ) : <p>No users to display</p>
+                ) : <p>No employees to display</p>
             }
         </article>
     );
