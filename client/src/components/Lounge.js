@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 const Lounge = () => {
     return (
@@ -7,10 +7,10 @@ const Lounge = () => {
             <br />
             <p>Admins and Editors can hang out here.</p>
             <div className="flexGrow">
-                <Link to="/">Dashboard</Link>
+                <Link to="/">Home</Link>
             </div>
         </section>
     )
 }
 
-export default Lounge;
+export default Lounge

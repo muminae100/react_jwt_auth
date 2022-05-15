@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 const Editor = () => {
     return (
@@ -7,10 +7,10 @@ const Editor = () => {
             <br />
             <p>You must have been assigned an Editor role.</p>
             <div className="flexGrow">
-                <Link to="/">Dashboard</Link>
+                <Link to="/">Home</Link>
             </div>
         </section>
     )
 }
 
-export default Editor;
+export default Editor
