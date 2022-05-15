@@ -7,7 +7,7 @@ const Editor = () => {
             <br />
             <p>You must have been assigned an Editor role.</p>
             <div className="flexGrow">
-                <Link to="/dashboard">Dashboard</Link>
+                <Link to="/">Dashboard</Link>
             </div>
         </section>
     )

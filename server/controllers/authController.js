@@ -23,12 +23,12 @@ const handleAuth = async (req, res) =>{
             }
             },
             process.env.ACCESS_TOKEN_SECRET,
-            { expiresIn: '30s' }
+            { expiresIn: '10s' }
         );
         const refreshToken = jwt.sign(
             {"name": user.name},
             process.env.REFRESH_TOKEN_SECRET,
-            { expiresIn: '1m' }
+            { expiresIn: '40s' }
         );
         
         //save refresh token

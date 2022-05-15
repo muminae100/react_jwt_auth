@@ -6,7 +6,7 @@ const NotFound = () => {
             <h1>Oops!</h1>
             <p>Page Not Found</p>
             <div className="flexGrow">
-                <Link to="/dashboard">Visit the Dashboard</Link>
+                <Link to="/">Visit the Dashboard</Link>
             </div>
         </article>
     )

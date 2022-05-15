@@ -26,7 +26,7 @@ function App() {
     <Route exact path="unauthorized" element={<Unauthorized />} />
 
     <Route element={<RequireAuth allowedRoles={[ROLES.User]}/>}>
-    <Route exact path="dashboard" element={<Dashboard />} />
+    <Route exact path="/" element={<Dashboard />} />
     </Route>
 
     <Route element={<RequireAuth allowedRoles={[ROLES.Editor]}/>}>
