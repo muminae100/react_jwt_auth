@@ -467,3 +467,14 @@
 20220515	22:21:01	66d7948f-8a48-4719-9463-fd7149dc1f8b	GET	http://localhost:3000	/refresh
 20220515	22:21:09	75d996e0-43ba-4ff2-9e7c-aaf0244e2911	OPTIONS	http://localhost:3000	/users
 20220515	22:21:09	cbb6ccd5-333a-47dd-83fe-fd3281b61429	GET	http://localhost:3000	/users
+20220515	22:24:53	9f293609-8846-4f8d-8644-497da155924c	OPTIONS	http://localhost:3000	/auth
+20220515	22:24:53	e1832bed-5c0f-40fa-af57-e3e0a6925a73	POST	http://localhost:3000	/auth
+20220515	22:24:53	e8f49ae8-e421-42c0-b282-d2653e95d50a	OPTIONS	http://localhost:3000	/api/employees
+20220515	22:24:53	93b1449b-23b4-4399-a389-6d3bdb9add17	GET	http://localhost:3000	/api/employees
+20220515	22:25:18	3c90d46a-f0b5-4de4-82e5-cc0d0288ead5	OPTIONS	http://localhost:3000	/api/employees
+20220515	22:25:18	29438535-4d89-4587-b1d3-bade9f819b6f	GET	http://localhost:3000	/api/employees
+20220515	22:25:18	9fb8d8e5-40e5-4a13-931b-0830f8632d29	GET	http://localhost:3000	/refresh
+20220515	22:25:18	71b5e25a-429e-4602-8d53-43d630f0a323	GET	http://localhost:3000	/api/employees
+20220515	22:25:25	31ad91c8-aaf2-433b-a879-63f643d5b194	GET	http://localhost:3000	/refresh
+20220515	22:25:28	b0624e4b-13c3-4151-a71f-69b81f73d3f6	OPTIONS	http://localhost:3000	/api/employees
+20220515	22:25:28	f96ea2e1-5243-445c-a9b5-6396b23f700b	GET	http://localhost:3000	/api/employees

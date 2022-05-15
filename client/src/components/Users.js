@@ -39,7 +39,7 @@ const Users = () => {
             {users?.length
                 ? (
                     <ul>
-                        {users.map((user, i) => <li key={i}>{user?.username}</li>)}
+                        {users.map((user, i) => <li key={i}>{user?.name}</li>)}
                     </ul>
                 ) : <p>No employees to display</p>
             }
